@@ -3,3 +3,10 @@
 
 //layout
 @import 'reboot';
+
+//mixin
+// 导入后组件内才可以通过@include获取mixin的值
+@import 'mixin';
+// button
+
+@import '../components/Button/style';
